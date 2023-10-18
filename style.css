@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+html {
+  font-family: inherit;
+  font-size: 14px;
+}
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 2rem;
+}
+/*main*/
+main {
+  padding: 0.5rem;
+}
+
+article {
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3rem;
+  border-radius: 1rem;
+}
+
+article > .asics {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 0.5rem;
+}
+.content {
+  font-size: 1rem;
+}
+.section-footer {
+  background-color: #f5f5f5;
+  border-radius: 1rem;
+  margin: 1.5rem;
+}
+
+.price {
+  background-color: white;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: rgb(55, 55, 248);
+  position: relative;
+  margin-top: 5%;
+  margin-left: 9%;
+  padding: 3% 35%;
+  border-radius: 0.5rem;
+}
+
+.menue {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  font-size: 1.8rem;
+}
+
+.dropdown {
+  background-color: white;
+  border: none;
+  height: 2rem;
+  margin-top: 5.5%;
+  margin-right: 45%;
+}
+
+.dropdown2 {
+  background-color: white;
+  border: none;
+  height: 2rem;
+  margin-top: 5.5%;
+}
+.color {
+  font-size: 22px;
+  margin-left: 1%;
+}
+
+.kreis1 {
+  background-color: blue;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 7%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.kreis2 {
+  background-color: red;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 9%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis3 {
+  background-color: black;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 11%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis4 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 50%,
+    rgba(39, 103, 9, 1) 50%
+  );
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 40%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis5 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 50%,
+    rgba(17, 79, 161, 1) 50%
+  );
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 42%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis6 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 50%,
+    rgba(161, 17, 156, 1) 50%
+  );
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 44%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis7 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(161, 17, 17, 1) 50%
+  );
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 73%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.kreis8 {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(0, 0, 0, 1) 50%
+  );
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 83.5%;
+  left: 75%;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 100px;
+}
+.img1 {
+  position: relative;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    0deg,
+    white 10%,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
